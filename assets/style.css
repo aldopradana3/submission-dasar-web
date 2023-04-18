@@ -1,0 +1,201 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  height: 6.1vw;
+  background-color: #1f8a70;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  float: left;
+  padding: 1vw 3vw;
+}
+
+.logo a {
+  transition: 0.5s;
+  color: white;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 3vw;
+}
+
+.logo a:hover {
+  color: #ffe9cf;
+}
+
+header ul li {
+  float: right;
+  list-style: none;
+}
+
+header ul li a {
+  color: white;
+  float: left;
+  font-weight: normal;
+  padding: 2vw 2vw;
+  font-size: 1.5vw;
+}
+
+header ul li a {
+  transition: 0.5s;
+}
+
+header ul li a:hover {
+  color: #ffe9cf;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+.utama {
+  margin-top: 15vw;
+  transition: 0.5s;
+}
+
+.desk-kiri {
+  float: left;
+  width: 40%;
+  padding-left: 3vw;
+}
+
+.desk-kiri h1 {
+  font-weight: 800;
+  font-size: 4.5vw;
+  padding-top: 3vw;
+}
+
+.desk-kiri p {
+  font-weight: 300;
+  font-size: 1.5vw;
+  padding-bottom: 2vw;
+}
+
+button {
+  padding: 1vw 2vw;
+  font-weight: 500;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  transition: 0.4s;
+  font-size: 1vw;
+  background-color: #1f8a70;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffe9cf;
+  color: #000000;
+}
+
+.desk-kanan {
+  float: right;
+  width: 60%;
+}
+
+.isi {
+  padding-top: 37vw;
+  transition: 0.5s;
+}
+
+.desk-kanan2 {
+  float: right;
+  width: 60%;
+  padding-left: 3vw;
+}
+
+.desk-kanan2 h1 {
+  font-weight: 500;
+  font-size: 3vw;
+}
+
+.desk-kanan2 p {
+  font-weight: 300;
+  font-size: 1.5vw;
+  padding-top: 1vw;
+}
+
+.desk-kiri2 {
+  float: left;
+  width: 40%;
+  padding-top: 7.5vw;
+}
+
+.questions-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.akhir {
+  padding-top: 37vw;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.akhir span {
+  width: 50%;
+  float: left;
+}
+
+.akhir aside {
+  width: 50%;
+  float: right;
+  border-left: 1px black solid;
+}
+
+.akhir span h1 {
+  font-weight: 700;
+  font-size: 2.5vw;
+  padding-bottom: 1vw;
+  padding-top: 2.7vw;
+}
+
+.akhir span h2 {
+  font-weight: 500;
+  font-size: 1.4vw;
+  padding-top: 1vw;
+}
+
+.akhir aside h1 {
+  font-weight: 700;
+  font-size: 2.5vw;
+  padding-bottom: 2vw;
+}
+
+.akhir aside h2 {
+  font-weight: 500;
+  font-size: 2vw;
+  padding-bottom: 1vw;
+  padding-top: 2vw;
+}
+
+.akhir aside p {
+  font-weight: 300;
+  font-size: 1vw;
+}
+
+.footer {
+  margin-top: 35vw;
+  height: 5vw;
+  background-color: #1f8a70;
+  color: white;
+  text-align: center;
+  padding-top: 2vw;
+  font-size: 1vw;
+  transition: 0.5s;
+}
+
+.footer a {
+  color: white;
+}
